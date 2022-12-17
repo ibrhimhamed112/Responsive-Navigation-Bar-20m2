@@ -1,2 +1,2 @@
-# Responsive-Navigation-Bar-20m2
+# Responsive-Navigation-Bar
 How to create the Responsive Navigation Bar using HTML CSS and Javascript
