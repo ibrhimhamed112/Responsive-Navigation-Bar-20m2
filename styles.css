@@ -31,11 +31,6 @@ body {
     height: 100%;
 }
 
-
-/* .navbar .hamburger {
-    display: none;
-} */
-
 .navbar .logo a {
     font-weight: 700;
     font-size: 24px;
@@ -181,4 +176,38 @@ body {
     margin-left: 70%;
     margin-top: -15%;
     border: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cards.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards ul li {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin: 0 75px;
+    color: rgba(0, 0, 0, 0.632);
+}
+
+li.b {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 570;
+}
+
+.icon {
+    margin-left: -60px;
+    margin-bottom: -60px;
 }
